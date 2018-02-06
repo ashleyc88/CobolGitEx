@@ -2,10 +2,10 @@
   <PropertyGroup>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <ProjectGuid>{672B1ED4-D775-4C43-9D6D-4BA6FAED6551}</ProjectGuid>
-    <OutputName>CobolGitEx</OutputName>
+    <ProjectGuid>{1AE06B5F-D49D-49E9-BCFE-89F0B2144395}</ProjectGuid>
+    <OutputName>IntGntProject1</OutputName>
     <OutputType>IntGnt</OutputType>
-    <RootNamespace>CobolGitEx</RootNamespace>
+    <RootNamespace>IntGntProject1</RootNamespace>
     <MFProjectType>Native</MFProjectType>
     <IncludeInLibrary>True</IncludeInLibrary>
   </PropertyGroup>
@@ -24,8 +24,5 @@
     <MaxError>100</MaxError>
     <Optimize>True</Optimize>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="Program2.cbl" />
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Micro Focus\Visual COBOL\v1.0\MicroFocus.COBOL.targets" />
 </Project>
